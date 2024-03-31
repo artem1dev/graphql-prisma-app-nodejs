@@ -1,0 +1,26 @@
+{
+    "name": "graphql-basics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon src/index.js",
+        "get-schema": "graphql get-schema -p prisma",
+        "prettier": "prettier --write **/*.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.4.5",
+        "graphql-cli": "^2.16.4",
+        "graphql-yoga": "^1.14.10",
+        "jsonwebtoken": "^8.3.0",
+        "prisma-binding": "^2.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5",
+        "prettier": "^3.2.5"
+    }
+}
